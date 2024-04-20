@@ -5,11 +5,11 @@ public class SumOfFacts {
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
-        int N=sc.nextInt();
-        int fact=1,sum=0;
+        long N=sc.nextLong();
+        long fact=1,sum=0;
         while(N!=0)
         {
-            int rem=N%10;
+            long rem=N%10;
             for(int i=1;i<=rem;i++)
             {
                 fact=fact*i;
